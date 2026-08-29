@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "interlight";
+  src: url("/fonts/Inter_18pt-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "interbold";
+  src: url("/fonts/Inter_24pt-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "intermd";
+  src: url("/fonts/Inter_18pt-Medium.ttf") format("truetype");
+}
+
+@layer components {
+  .container {
+    @apply mx-auto;
+
+  }
+  .hover {
+    @apply hover:text-amber-500 transition-colors;
+  }
+}
+
+@theme{
+--font-inter:"interlight";
+--font-interbold:"interbold";
+--font-intermd:"intermd";
+}

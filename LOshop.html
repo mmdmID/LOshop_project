@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOshop</title>
+        <link rel="stylesheet" href="/global/app.css">
+        <link rel="icon"  href="/Img-project/high-level-description-a-modern-minimali_Qhp4vVswU2a193EkgCovxQ_guzXZnpYQEqkFgobvqexGA.jpg">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    </head>
+    <body class="font-inter box-border">
+        <!-- header strat -->
+         <!-- Notification -->
+        <div class=" flex justify-between max-w-full p-2 bg-gray-100 border border-gray-100 font-interbold text-sm max-md:hidden">
+            <span class="">Free shipping on all orders over $100</span>
+            <div class="flex gap-12 font-intermd">
+                <div class="flex gap-1 items-center hover:text-gray-600 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                    </svg>
+                    <a  href="mailto:support@loshop.com" class="">support@loshop.com</a>
+                </div>
+                <div class="flex gap-1 items-center hover:text-gray-600 transition-colors ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                    </svg>
+                    <a class="" href="tel:+1 (555) 123-4567">(021) 22359565</a>
+                </div>
+                <div class="">
+                    <ul class="flex items-center gap-1">
+                        <li class="relative group">
+                            <div class="cursor-pointer">
+                                English
+                                <div class="absolute -left-2 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max leading-8">
+                                    <p  >English</p>
+                                    <p>Russia</p>
+                                    <p>العربیه</p>
+                                    <p>india</p>
+                                </div>
+                                </li>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </div>
+                    </ul>
+                </div>
+        </div>
+        <div class="">
+            <!-- Logo -->
+            <div class="max-h-20 max-w-20 m-auto mb-5 items-center">
+                <a href="#"> 
+                <img class="" src="/Img-project/high-level-description-a-modern-minimali_Qhp4vVswU2a193EkgCovxQ_guzXZnpYQEqkFgobvqexGA.jpg" alt="">
+                </a>
+            </div>
+            <!-- navigation -->
+            <header class="flex sticky items-center justify-center gap-5 sm:gap-1  left-0 w-full z-50 ">
+                <div class=" flex justify-center-safe h-8 text-sm font-inter items-center max-sm:hidden">
+                    <ul class="list-none flex justify-center gap-8 text-gray-600">
+                        <li class="relative group">
+                            <div class="flex items-center hover">
+                                <a href="#" class="">
+                                Category
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 group-hover:rotate-90 transition-transform">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+
+                            </div>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max z-40 ">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20 ">
+                                    <h1 class="font-bold text-lg font-interbold">Category</h1>
+                                    <a href="#" class="px-1 py-1 text-gray-500 hover:text-stone-900">mobile's</a>
+                                    <a href="#" class="px-1 py-1 text-gray-500 hover:text-stone-900">Accessories</a>
+                                    <a href="#" class="px-1 py-1 text-gray-500 hover:text-stone-900">Computers</a>
+                                    <a href="#" class="px-1 py-1 text-gray-500 hover:text-stone-900">Laptops</a>
+                                    <a href="#" class="px-1 py-1 text-gray-500 hover:text-stone-900">Home and kitchen</a>
+                                    <a href="#" class="px-1 py-1 text-gray-500 hover:text-stone-900">Electrical appliances</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="hover">
+                                Mobile
+                            </a>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                    <h1 class="font-bold text-lg font-interbold">Mobile</h1>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Iphone</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Samsung</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Xiaomi</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Nokia</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Sony</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Huawei</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Nothing phone</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="hover">
+                                Laptop
+                            </a>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max ">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                    <h1 class="font-bold text-lg font-interbold">Laptop</h1>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Asus</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Microsoft</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">MSI</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Macbook</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Hp</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Dell</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Lenovo</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="hover">
+                                headset
+                            </a>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max ">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                    <h1 class="font-bold text-lg font-interbold">headset</h1>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Samsung</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">QCY</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Anker</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">JBL</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Sony</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Haylou</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Redmi</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relative group">
+                            <div class="relative">
+                                <a href="#" class="hover">
+                                    Offer
+                                </a>
+                                <span class="absolute -top-3 -right-5 rounded-full p-0.5 flex items-center justify-center bg-red-500 text-white text-[9px]">NEW</span>
+                            </div>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max ">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                    <h1 class="font-bold text-lg font-interbold">Offer</h1>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Lenovo🔥</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">QCY🔥</a>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="hover">
+                                Top seles
+                            </a>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max ">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                    <h1 class="font-bold text-lg font-interbold">Top seles</h1>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Asus</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Anker</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Xiaomi</a>
+                                   
+                                </div>
+                            </div>   
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="hover">
+                                Console
+                            </a>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max ">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                    <h1 class="font-bold text-lg font-interbold">Console</h1>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Playstation 5</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Xbox series X</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Nintendo</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Xbox one s</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900"></a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900"></a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="hover">
+                                Watch
+                            </a>
+                            <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max ">
+                                <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                    <h1 class="font-bold text-lg font-interbold">Watch</h1>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Galaxy watch's</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Cmf watch's</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Xiaomi watch's</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Haylou watch's</a>
+                                    <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900">Apple watch's</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="relative group">
+                            <a href="#" class="hover">
+                            support
+                        </a>
+                        <div class="absolute left-0 top-full mt-0 hidden group-hover:block bg-white text-black p-4 shadow-lg rounded-lg w-max ">
+                            <div class="grid grid-cols-2 gap-y-1 gap-x-20">
+                                <h1 class="font-bold text-lg font-interbold">support</h1>
+                                <a tel href="" class="px-1 py-1 text-gray-500 hover:text-stone-900"></a>
+                                <a href="" class="px-1 py-1 text-gray-500 hover:text-stone-900"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="relative group hover">
+                        <a href="" class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+                        </a>
+                        <div class="absolute left-0 top-full mt-0 hidden group-hover:flex bg-white text-black p-4 shadow-lg rounded max-w-max">
+                            <span class="font-intermd">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" flex size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                </svg>
+                            </span>
+                            <input id="search" type="search" placeholder="Search LOshop.com" autofocus class=" rounded border border-gray-50 focus:outline-white w-65 text-gray-700 placeholder:text-amber-500">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex ml-12 gap-5 max-md:hidden ">
+                    <a class="hover:bg-stone-200 rounded-full transition-colors" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg>
+                    </a>
+                    <div class="relative hover:bg-stone-200 rounded-full transition-colors">
+                        <a class="" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                        </a>
+                        <span class="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs font-semibold text-white">1</span>
+                    </div>
+            </div>
+        </header>
+        </div>
+        <!-- body part1 start (Hero Part) -->
+         <main class="mb-5">
+             <section>
+                 <div class="relative container bg-black max-h-max flex justify-between mt-9 rounded-xl mb-6">
+                     <button type="button" class="absolute top-1/2 left-3 text-white hover:bg-gray-700 rounded-full transition-colors cursor-pointer max-sm:hidden">
+                         <span class=" ">
+                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                 </svg>
+                         </span>
+                     </button>
+                     <div class=" m-auto leading-16 max-sm:leading-5 ">
+                         <h4 class="text-yellow-300 text-sm leading-10 max-sm:text-sm">NEW COLLECTION</h4>
+                         <h1 class="text-white text-4xl font-interbold max-sm:text-xl">iPhone 17 Pro</h1>
+                         <p class="text-white font-extralight max-sm:text-sm">Titanium. so strong. so light. so pro.</p>
+                         <div class="inline-flex bg-white hover:bg-stone-300 transition-colors cursor-pointer text-sm font-extrabold px-6 py-2 rounded-md group max-sm:px-2 max-sm:py-1 max-sm:font-normal">
+                             <button type="reset" class="cursor-pointer">Shop Now</button>
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-b">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                             </svg>
+                         </div>
+                     </div>
+                     <div class=" max-w-1/2 max-h-86 overflow-hidden rounded-lg">
+                         <img class="" src="/Img-project/Category_Section/ChatGPT Image Jul 16, 2026, 05_25_40 PM.png" alt="">
+                     </div>
+                     <button type="button" class="absolute top-1/2 right-3 text-white hover:bg-gray-700 rounded-full transition-colors cursor-pointer max-sm:hidden">
+                         <span class=" ">
+                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+                         </span>
+                     </button>
+                 </div>
+                 <!-- section categories -->
+                  <div class="container mb-10 grid grid-cols-6 gap-3 max-lg:grid-cols-3 max-md:grid-cols-3 gap1 max-sm:grid-cols-2">
+                     <div class="inline-flex max-h-28 bg-gray-100 rounded-lg p-2 px-3 shadow-sm border border-gray-200 hover:bg-gray-200 cursor-pointer max-sm:active:bg-gray-300 transition-colors ">
+                         <div class="m-auto">
+                             <h2 class=" text-stone-700 font-interbold text-sm">Mobile</h2>
+                             <p class="text-stone-500 font-interbold text-sm">Smartphone</p>
+                         </div>
+                         <div class="max-w-32">
+                         <img class="object-contain max-w-full max-h-full" src="/Img-project/Category_Section/ChatGPT Image Jul 18, 2026, 02_46_20 PM.png" alt="iPhone 17 silver">
+                         </div>
+                     </div>
+                     <div class="inline-flex max-h-28 bg-gray-100 rounded-lg p-2 px-3 shadow-sm border border-gray-200 hover:bg-gray-200 cursor-pointer transition-colors">
+                         <div class="m-auto">
+                             <h2 class=" text-stone-700 font-interbold text-sm ">Loptop</h2>
+                             <p class="text-stone-500 font-interbold text-sm">High Performance</p>
+                         </div>
+                         <div class="max-w-32">
+                         <img class="object-contain w-full max-h-full" src="/Img-project/Category_Section/Loptop3.png " alt="Loptop silver">
+                         </div>
+                     </div>
+                     <div class="inline-flex max-h-28 bg-gray-100 rounded-lg p-2 px-3 shadow-sm border border-gray-200 hover:bg-gray-200 cursor-pointer transition-colors">
+                         <div class="m-auto">
+                             <h2 class=" text-stone-700 font-interbold text-sm">Headset</h2>
+                             <p class="text-stone-500 font-interbold text-sm">Top Quality</p>
+                         </div>
+                         <div class="max-w-28">
+                         <img class="object-contain max-w-full max-h-full" src="/Img-project/Category_Section/Headset.png" alt="Top Headset">
+                         </div>
+                     </div>
+                     <div class="inline-flex max-h-32 bg-gray-100 rounded-lg p-2 px-3 shadow-sm border border-gray-200 hover:bg-gray-200 cursor-pointer transition-colors">
+                         <div class="m-auto">
+                             <h2 class=" text-stone-700 font-interbold text-sm">Watch</h2>
+                             <p class="text-stone-500 font-interbold text-sm">Smart Watch</p>
+                         </div>
+                         <div class="max-w-32">
+                         <img class="object-contain max-w-full max-h-full" src="/Img-project/Category_Section/Watch.png" alt="Smart Watch">
+                         </div>
+                     </div>
+                     <div class="inline-flex max-h-28 bg-gray-100 rounded-lg p-2 px-3 shadow-sm border border-gray-200 hover:bg-gray-200 cursor-pointer transition-colors">
+                         <div class="m-auto">
+                             <h2 class=" text-stone-700 font-interbold text-sm">Console</h2>
+                             <p class="text-stone-500 font-interbold text-sm">Next Gen</p>
+                         </div>
+                         <div class="max-w-32">
+                         <img class="object-contain max-w-full max-h-full" src="/Img-project/Category_Section/PS5pro.png" alt="Ps5 Next Gen">
+                         </div>
+                     </div>
+                     <div class="inline-flex max-h-28 bg-gray-100 rounded-lg p-2 px-3 shadow-sm border border-gray-200 hover:bg-gray-200 cursor-pointer transition-colors">
+                         <div class="m-auto">
+                             <h2 class=" text-stone-700 font-interbold text-sm">Accessories</h2>
+                             <p class="text-stone-500 font-interbold text-sm">Best Deals</p>
+                         </div>
+                         <div class="">
+                             <img class="object-contain max-w-full max-h-full" src="/Img-project/Category_Section/AirPods.png" alt="Best Accessories">
+                         </div>
+                     </div>     
+                  </div>
+                 </section>
+                 <!-- End Section Category -->
+                 
+             <!-- Start Section Featured Products-->
+             <section>
+                 <div class="container font-interbold mb-4">
+                     <!-- navigation name & view all -->
+                     <div class="flex justify-between items-center mb-5">
+                         <h1 class="font-extrabold text-lg">Featured Products</h1>
+                         <div class="flex items-center text-sm text-stone-600 hover:text-stone-950">
+                             <a href="">View All</a>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                             </svg>
+                         </div>
+                     </div>
+                     <div class="grid grid-cols-6 gap-5 max-lg:grid-cols-3 max-md:grid-cols-3 gap1 max-sm:grid-cols-2">
+                         <!--producte box  -->
+                         <div class="relative group flex flex-col border border-stone-100 shadow-md rounded-lg p-1">
+                             <button class="absolute group opacity-0 group-hover:opacity-100 top-4 right-2 rounded-full transition-all">
+                                 <i class="fas fa-heart text-gray-400 hover:text-red-500 transition-colors"></i>
+                             </button>
+                             <div class="max-w-60 bg-gray-100 rounded-lg m-auto overflow-hidden mb-2 ">
+                                 <img class="group-hover:scale-110 transition-all object-contain max-w-full max-h-full" src="/Img-project/Featured_products/Airpod2Pro.png" alt="AirPods">
+                             </div>
+                             <div class="px-3">
+                                 <h3 class="mb-3">AirPods Pro 2</h3>
+                                 <div class="flex text-yellow-400 items-center gap-1 mb-3">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                         <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                         <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                         <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                         <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <span class="text-gray-500 text-sm">(105)</span>
+                                 </div>
+                                 <div class="flex gap-2 mb-3">
+                                     <span class="text-bold">$249.99</span>
+                                     <span class="text-stone-500 line-through">$299.99</span>
+                                 </div>
+                                 <div class="flex items-center justify-center gap-2 font-inter text-sm py-2 rounded-lg bg-black text-white hover:text-stone-300 cursor-pointer transition-colors">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                     </svg>
+                                     <button type="button" class="cursor-pointer">Add To Card</button>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- producte box -->
+                         <div class="relative group flex flex-col border border-stone-100 shadow-md rounded-lg p-1">
+                             <button class="absolute group opacity-0 group-hover:opacity-100 top-4 right-2 transition-all">
+                                 <i class="fas fa-heart text-gray-400 hover:text-red-500 transition-colors"></i>
+                             </button>
+                             <div class="max-w-60 bg-gray-100 rounded-lg m-auto overflow-hidden mb-2 ">
+                                 <img class="group-hover:scale-110 transition-all object-contain max-w-full max-h-full" src="/Img-project/Featured_products/S26Ultra.png" alt="S26Ultra">
+                             </div>
+                             <div class="px-3">
+                                 <h3 class="mb-3">Samsung Galaxy S26 Ultra</h3>
+                                 <div class="flex text-yellow-400 items-center gap-1 mb-3">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <span class="text-gray-500 text-sm">(168)</span>
+                                 </div>
+                                 <div class="flex gap-2 mb-3">
+                                     <span class="text-bold">$1,199.00</span>
+                                 
+                                 </div>
+                                 <div class="flex items-center justify-center gap-2 font-inter text-sm py-2 rounded-lg bg-black text-white hover:text-stone-300 cursor-pointer transition-colors">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                     </svg>
+                                     <button type="button" class="cursor-pointer">Add To Card</button>
+                                 </div>
+                             </div>
+                         </div> 
+                         <!-- one  -->
+                         <div class="relative group flex flex-col border border-stone-100 shadow-md rounded-lg p-1">
+                             <button class="absolute group opacity-0 group-hover:opacity-100 top-4 right-2 rounded-full transition-all">
+                                 <i class="fas fa-heart text-gray-400 hover:text-red-500 transition-colors"></i>
+                             </button>
+                             <div class="max-w-60 bg-gray-100 rounded-lg m-auto overflow-hidden mb-2 ">
+                                 <img class="group-hover:scale-110 transition-all object-contain max-w-full max-h-full" src="/Img-project/Featured_products/Macbook.png" alt="Macbook Pro">
+                             </div>
+                             <div class="px-3">
+                                 <h3 class="mb-3">MacBook Pro MGDT4</h3>
+                                 <div class="flex text-yellow-400 items-center gap-1 mb-3">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <span class="text-gray-500 text-sm">(75)</span>
+                                 </div>
+                                 <div class="flex gap-2 mb-3">
+                                     <span class="text-bold">$2,300.00</span>
+                                     <span class="text-stone-500 line-through">$2,624.95</span>
+                                 </div>
+                                 <div class="flex items-center justify-center gap-2 font-inter text-sm py-2 rounded-lg bg-black text-white hover:text-stone-300 cursor-pointer transition-colors">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                     </svg>
+                                     <button type="button" class="cursor-pointer">Add To Card</button>
+                                 </div>
+                             </div>
+                         </div> 
+                         <div class="relative group flex flex-col border border-stone-100 shadow-md rounded-lg p-1">
+                             <button class="absolute group opacity-0 group-hover:opacity-100 top-4 right-2 rounded-full transition-all">
+                                 <i class="fas fa-heart text-gray-400 hover:text-red-500 transition-colors"></i>
+                             </button>
+                             <div class="max-w-60 bg-gray-100 rounded-lg m-auto overflow-hidden mb-2 ">
+                                 <img class="group-hover:scale-110 transition-all object-contain max-w-full max-h-full" src="/Img-project/Featured_products/HeadsetSony.png" alt="Sony WH-1000XM6">
+                             </div>
+                             <div class="px-3">
+                                 <h3 class="mb-3">Sony WH-1000XM6</h3>
+                                 <div class="flex text-yellow-400 items-center gap-1 mb-3">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <span class="text-gray-500 text-sm">(67)</span>
+                                 </div>
+                                 <div class="flex gap-2 mb-3">
+                                     <span class="text-bold">$320.00</span>
+                                     <span class="text-stone-500 line-through">$345.406</span>
+                                 </div>
+                                 <div class="flex items-center justify-center gap-2 font-inter text-sm py-2 rounded-lg bg-black text-white hover:text-stone-300 cursor-pointer transition-colors">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                     </svg>
+                                     <button type="button" class="cursor-pointer">Add To Card</button>
+                                 </div>
+                             </div>
+                         </div> 
+                         <div class="relative group flex flex-col border border-stone-100 shadow-md rounded-lg p-1">
+                             <button class="absolute group opacity-0 group-hover:opacity-100 top-4 right-2 rounded-full transition-all">
+                                 <i class="fas fa-heart text-gray-400 hover:text-red-500 transition-colors"></i>
+                             </button>
+                             <div class="max-w-60 bg-gray-100 rounded-lg m-auto overflow-hidden mb-2 ">
+                                 <img class="group-hover:scale-110 transition-all object-contain max-w-full max-h-full" src="/Img-project/Featured_products/AppleWatch.png" alt="Apple Watch Ultra 3">
+                             </div>
+                             <div class="px-3">
+                                 <h3 class="mb-3">Apple Watch Ultra 3</h3>
+                                 <div class="flex text-yellow-400 items-center gap-1 mb-3">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <span class="text-gray-500 text-sm">(88)</span>
+                                 </div>
+                                 <div class="flex gap-2 mb-3">
+                                     <span class="text-bold">$859.95</span>
+                                     
+                                 </div>
+                                 <div class="flex items-center justify-center gap-2 font-inter text-sm py-2 rounded-lg bg-black text-white hover:text-stone-300 cursor-pointer transition-colors">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                     </svg>
+                                     <button type="button" class="cursor-pointer">Add To Card</button>
+                                 </div>
+                             </div>
+                         </div> 
+                         <div class="relative group flex flex-col border border-stone-100 shadow-md rounded-lg p-1">
+                             <button class="absolute group opacity-0 group-hover:opacity-100 top-4 right-2 rounded-full transition-all">
+                                 <i class="fas fa-heart text-gray-400 hover:text-red-500 transition-colors"></i>
+                             </button>
+                             <div class="max-w-60 bg-gray-100 rounded-lg m-auto overflow-hidden mb-2 ">
+                                 <img class="group-hover:scale-110 transition-all object-contain max-w-full max-h-full" src="/Img-project/Featured_products/PS5Pro.png" alt="Sony PlayStation 5 Pro">
+                             </div>
+                             <div class="px-3">
+                                 <h3 class="mb-3">Sony PlayStation 5 Pro</h3>
+                                 <div class="flex text-yellow-400 items-center gap-1 mb-3">
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                                     </svg>
+                                     <span class="text-gray-500 text-sm">(95)</span>
+                                 </div>
+                                 <div class="flex gap-2 mb-3">
+                                     <span class="text-bold">$1,100.00</span>
+                                     <span class="text-stone-500 line-through">$1,310.00</span>
+                                 </div>
+                                 <div class="flex items-center justify-center gap-2 font-inter text-sm py-2 rounded-lg bg-black text-white hover:text-stone-300 cursor-pointer transition-colors">
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                     </svg>
+                                     <button type="button" class="cursor-pointer">Add To Card</button>
+                                 </div>
+                             </div>
+                         </div> 
+                     </div>
+                 </div>
+                 <!-- Hero part two -->
+                  <div class="container bg-black max-h-52 flex mb-6 justify-between rounded-xl shadow-lg">
+                     <div class="mx-auto mt-4 leading-9">
+                         <h3 class="text-yellow-300">SUMMER SALE</h3>
+                         <h1 class="text-white font-interbold text-3xl">UP TO 50% OFF</h1>
+                         <P class="text-white mb-2">On selected items</P>
+                         <button type="button" class="bg-amber-300 px-6 text-md rounded-md font-interbold transition-colors cursor-pointer hover:bg-amber-500">Shop Now</button>
+                     </div>
+                         <img class="max-w-1/2 max-h-full object-contain" src="/Img-project/Hero2/Hero2.png" alt="">
+                  </div>
+              </section>
+             <!-- end section Featured Products -->
+     
+              <!-- start section best sellers and new arrivals -->
+               <section class="container">
+                     <div class=" flex justify-center items-center gap-10 m-5 ">
+                         <!-- part best sellers -->
+                         <div class="m-auto">
+                             <!-- notif part best sellers -->
+                             <div class="flex justify-between items-center mb-3">
+                                 <h1 class="font-interbold text-lg">Best Sellers</h1>
+                                 <div class="flex font-interbold items-center text-sm text-stone-600 hover:text-stone-950">
+                                     <a href="#" class="">View All</a>
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3">
+                                     <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                     </svg>
+                                 </div>
+                             </div>
+                             <!-- wrapper best sellers -->
+                             <div class="grid grid-cols-4 gap-4">
+                                 <!-- box 1 best sellers -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer ">
+                                     <div class="w-40 h-40 px-6 py-3 bg-gray-100 rounded-lg overflow-hidden">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/BestSellers/IPhone15pro.png" alt="IPhone15pro">
+                                     </div>
+                                     <div class="p-3">
+                                         <h3 class="font-interbold mb-2 ">iPhone 15 Pro Max</h3>
+                                         <span class="font-interbold text-sm">$999.00</span>
+                                     </div>
+                                 </div>
+                                 <!-- box 2 best sellers -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer">
+                                     <div class="w-40 h-40 px-6 py-3 bg-gray-100 rounded-lg overflow-hidden">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/BestSellers/HX_OMEN_16.png" alt="Loptop HP Omen">
+                                     </div>
+                                     <div class="p-3">
+                                         <h3 class="font-interbold mb-2 ">HP HyperX OMEN</h3>
+                                         <span class="font-interbold text-sm">$999.00</span>
+                                     </div>
+                                 </div>
+                                 <!-- box 3 best sellers -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer">
+                                     <div class="w-40 h-40 px-6 py-3 bg-gray-100 rounded-lg overflow-hidden">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/BestSellers/JBL.png" alt="Speaker JBL Xtreme 5">
+                                     </div>
+                                     <div class="p-3">
+                                         <h3 class="font-interbold mb-2 ">JBL Xtreme5</h3>
+                                         <span class="font-interbold text-sm">$299.5</span>
+                                     </div>
+                                 </div>
+                                 <!-- box 4 best sellers -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer">
+                                     <div class="w-40 h-40 flex items-center justify-center px-6 py-3 bg-gray-100 rounded-lg overflow-hidden ">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/BestSellers/Surface.png" alt="Microsoft Surface Pro">
+                                     </div>
+                                     <div class="p-3">
+                                         <h3 class="font-interbold mb-2">Microsoft Surface</h3>
+                                         <span class="font-interbold text-sm">$2,189.5</span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- part new arrivals -->
+                         <div class="m-auto">
+                             <div>
+                             <!-- notif part new arrivals -->
+                             <div class="flex justify-between items-center mb-3">
+                                 <h1 class="font-interbold text-lg">New Arrivals</h1>
+                                 <div class="flex font-interbold items-center text-sm text-stone-600 hover:text-stone-950">
+                                     <a href="#" class="">View All</a>
+                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3">
+                                     <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                     </svg>
+                                 </div>
+                             </div>
+                             <!-- wrapper new arrivals -->
+                             <div class="grid grid-cols-4 gap-4 ">
+                                 <!-- box 1 new arrivals -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer">
+                                     <div class="w-40 h-40 flex items-center justify-center px-6 py-3 m-auto bg-gray-100 rounded-lg overflow-hidden">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/NewArrivals/Nothingphone.png" alt="Nothing Phone 4a">
+                                     </div>
+                                     <div class="p-3">
+                                         <h3 class="font-interbold mb-2 ">Nothing Phone 4a</h3>
+                                         <span class="font-interbold text-sm">$679.00</span>
+                                     </div>
+                                 </div>
+                                 <!-- box 2 new arrivals -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer">
+                                     <div class="w-40 h-40 flex items-center justify-center px-6 py-3 m-auto bg-gray-100 rounded-lg overflow-hidden">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/NewArrivals/Nintendo.png" alt="Nintendo switch">
+                                     </div>
+                                     <div class="p-3">
+                                         <h3 class="font-interbold mb-2 ">Nintendo Switch</h3>
+                                         <span class="font-interbold text-sm">$297.00</span>
+                                     </div>
+                                 </div>
+                                 <!-- box 3 new arrivals -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer">
+                                     <div class="w-40 h-40 flex items-center justify-center px-6 py-3 m-auto bg-gray-100 rounded-lg overflow-hidden">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/NewArrivals/Logitech.png" alt="Headset Logitech">
+                                     </div>
+                                     <div class="p-3">
+                                         <h3 class="font-interbold mb-2 ">Logitech G PRO X2</h3>
+                                         <span class="font-interbold text-sm">$199.00</span>
+                                     </div>
+                                 </div>
+                                 <!-- box 4 new arrivals -->
+                                 <div class="flex flex-col w-full rounded-lg border border-stone-200 shadow-lg hover:bg-stone-100 transition-all cursor-pointer">
+                                     <div class="w-40 h-40 flex items-center justify-center px-6 py-3 m-auto bg-gray-100 rounded-lg overflow-hidden">
+                                         <img class="w-32 h-32 object-contain" src="/Img-project/NewArrivals/CMFwatch.png" alt="CMF Watch Pro 3">
+                                     </div>
+                                         <div class="p-3 flex-wrap">
+                                           <h3 class="font-interbold mb-2">CMF Watch Pro 3</h3>
+                                           <span class="font-interbold text-sm">$449.00</span>
+                                        </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- wrapper logos -->
+                      <div class="flex justify-around items-center bg-stone-100 rounded-lg shadow border border-stone-200 mb-8">
+                         <a href="https://www.apple.com/" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/Apple-Logo.png" alt="Apple">
+                         </a>
+                         <a href="https://www.samsung.com/" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/Font-Samsung-Logo.png" alt="Samsung">
+                         </a>
+                         <a href="https://www.sony.com/" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/Sony-Logo.png" alt="Sony">
+                         </a>
+                         <a href="https://www.asus.com/" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/Asus-Logo.png" alt="Asus">
+                         </a>
+                         <a href="https://www.dell.com/" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/dell.png" alt="Dell">
+                         </a>
+                         <a href="https://www.hp.com/gb-en/home.html" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/HP.png" alt="HP">
+                         </a>
+                         <a href="https://www.logitech.com/en-us" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/Logitech.png" alt="Logitech">
+                         </a>
+                         <a href="https://www.jbl.com/" class="w-28 h-16 flex items-center justify-center hover:scale-105 transition-all active:scale-95">
+                             <img class="max-w-[80%] max-h-[80%] object-contain" src="/Img-project/company_Logos/jbl-2-logo-black-and-white.png" alt="JBL">
+                         </a>
+                      </div>
+               </section>
+               <!-- end section ( best sellers - New Arrivals - wrapper logos  ) -->
+     
+               <!-- start part comments -->
+                <section class="container">
+                 <div class="mb-3">
+                     <h1 class="capitalize font-interbold text-[20px]">what our customers say</h1>
+                 </div>
+                 <div class="grid grid-cols-3 gap-5 relative group">
+                     <button type="button" class="absolute border border-gray-300 shadow-md rounded-full p-1.5 -right-16 top-1/3 hover:bg-gray-300 transition cursor-pointer">
+                         <span class="">
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.0" stroke="currentColor" class="size-4">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                             </svg>
+                         </span>
+                     </button>
+                     <!-- comment box 1 -->
+                     <div class="flex flex-col text-center gap-3 h-40 border border-gray-200 shadow-lg rounded-lg p-4">
+                         <div class="flex text-yellow-400 items-center gap-1 mb-3 ">
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                         </div>
+                         <p class="font-bold">"Amazing products and fast delivery!"</p>
+                         <div class="flex  items-center gap-3">
+                             <img class="w-10 h-10 rounded-full object-contain object" src="/Img-project/Comments/personal1.png" alt="">
+                             <span class="font-bold">Ali R.</span>
+                         </div>
+                     </div>
+                     <!-- comment box 2 -->
+                     <div class="flex flex-col text-center gap-3 h-40 border border-gray-200 shadow-lg rounded-lg p-4">
+                         <div class="flex text-yellow-400 items-center gap-1 mb-3 ">
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                         </div>
+                         <p class="font-bold">"LOshop has the best customer service."</p>
+                         <div class="flex items-center gap-3">
+                             <img class="w-10 h-10 rounded-full object-contain object" src="/Img-project/Comments/personal2.png" alt="">
+                             <span class="font-bold">Sara M.</span>
+                         </div>
+                     </div>
+                     <!-- comment box 3 -->
+                     <div class="flex flex-col text-center gap-4 h-40 border border-gray-200 shadow-lg rounded-lg p-4">
+                         <div class="flex text-yellow-400 items-center gap-1 mb-3 ">
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-4">
+                             <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z" clip-rule="evenodd" />
+                             </svg>
+                         </div>
+                         <p class="font-bold">"Great prices and original products. highly recommend"</p>
+                         <div class="flex items-center gap-3">
+                             <img class="w-10 h-10 rounded-full object-contain" src="/Img-project/Comments/personal3.png" alt="">
+                             <span class="font-bold">Reza K.</span>
+                         </div>
+                     </div>
+                     <button type="button" class="absolute border border-gray-300 shadow-md rounded-full p-1.5 -left-16 top-1/3 hover:bg-gray-300 transition cursor-pointer">
+                         <span class="">
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3.0" stroke="currentColor" class="size-4">
+                             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                             </svg>
+                         </span>
+                     </button>
+                 </div>
+             </section>  
+         </main>
+         <!-- End Main -->
+
+         <!-- start Footer -->
+         <footer>
+             <section class="container">
+                 <!-- Box of mail -->
+                <div class="bg-gray-100 px-20  w-full  shadow-lg rounded-xl border border-stone-200 mb-5">
+                    <div class="flex items-center justify-around">
+                        <div class="flex items-center">
+                            <img src="/Img-project/Emailimg.png" alt="" class="rounded-full w-40 ">
+                            <div>
+                                <h2 class="font-interbold text-2xl">Stay Updated</h2>
+                                <p class="capitalize font-bold text-sm">subscribe to our newsletter and get the lasted updates and offers</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center gap-3">
+                            <input type="email" name="" placeholder="Enter your email" class="border border-gray-200 bg-white text-gray-600 font-bold text-sm px-5 py-2 rounded-lg focus-visible:outline outline-gray-300 focus-visible:shadow-lg">
+                            <button type="submit"  class="bg-black text-white text-sm font-bold px-18 py-2 rounded-lg cursor-pointer hover:shadow-lg hover:scale-105 transition-all active:scale-95  ">subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- end part box email -->
+                 <!-- footer -->
+                 <div class="bg-gray-100 px-14 py-5  w-full  shadow-lg rounded-xl ">
+                    <div class="flex  justify-between">
+                        <!-- box of logo and links -->
+                        <div class="flex flex-col gap-4 items-center ">
+                            <img class="object-contain max-w-20" src="/Img-project/jx9fH01.svg" alt="">
+                            <p class="font-bold">Your one-stop shop for the best <br> tech products at the best prices.</p>
+                            <div class="flex items-center justify-center gap-3">
+                                <a class="max-w-9 rounded-full hover:scale-105 hover:shadow-lg transition-all " href="">
+                                    <img src="/Img-project/footer/instagram-round-svgrepo-com.svg" alt="">
+                                </a>
+                                <a class="max-w-9 rounded-full hover:scale-105 hover:shadow-lg transition-all" href="">
+                                    <img src="/Img-project/footer/facebook-round-svgrepo-com.svg" alt="">
+                                </a>
+                                <a class="max-w-9 rounded-full hover:scale-105 hover:shadow-lg transition-all" href="">
+                                    <img src="/Img-project/footer/twitter-2-svgrepo-com.svg" alt="">
+                                </a>
+                                <a class="max-w-9 rounded-full hover:scale-105 hover:shadow-lg transition-all" href="">
+                                    <img src="/Img-project/footer/telegram-svgrepo-com.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!--shop -->
+                         <div class="flex flex-col items-start gap-2">
+                            <h3 class="font-interbold text-xl">Shop</h3>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Mobile</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Laptop</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Headset</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Watch</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Accessories</a>
+                         </div>
+                         <!-- customer service -->
+                         <div class="flex flex-col items-start gap-2 ">
+                            <h3 class="font-interbold text-xl">Customer service</h3>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Contact Us</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Shipping & Delivery</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Returns & Refunds</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Warranty</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">FAQ</a>
+                         </div>
+                         <!-- company -->
+                         <div class="flex flex-col items-start gap-2 ">
+                            <h3 class="font-interbold text-xl">Company</h3>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">About Us</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Careers</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Blog</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Press</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Affiliates</a>
+                         </div>
+                         <!-- support -->
+                         <div class="flex flex-col items-start gap-2 ">
+                            <h3 class="font-interbold text-xl">Support</h3>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Help Center</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Track Order</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Payment Methods</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Terms & Conditions</a>
+                            <a class="font-intermd hover:text-gray-600 transition-colors" href="#">Privacy Policy</a>
+                         </div>
+                         <!-- contact -->
+                         <div class="flex flex-col items-start gap-2 ">
+                            <h3 class="font-interbold text-xl">Contact</h3>
+                            <div class="flex items-center justify-center gap-1 font-intermd hover:text-gray-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                </svg>
+                                <a href="">support@loshop.com</a>
+                            </div>
+                            <div class="flex items-center justify-center gap-1 font-intermd hover:text-gray-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                                </svg>
+                                <a href="">22359565</a>
+                            </div>
+                            <div class="flex items-center justify-center gap-1 font-intermd hover:text-gray-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                </svg>
+                                <a href="">Tehran, sharyati street, No.5</a>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </section>
+         </footer>
+    </body>
+</html>
