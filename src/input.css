@@ -13,10 +13,7 @@
 }
 
 @layer components {
-  .container {
-    @apply mx-auto;
 
-  }
   .hover {
     @apply hover:text-amber-500 transition-colors;
   }
