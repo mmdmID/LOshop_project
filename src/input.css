@@ -13,6 +13,46 @@
 }
 
 @layer components {
+  .containar {
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  @media (width >= 40rem) {
+    .containar {
+      max-width: 40rem;
+    }
+  }
+
+  @media (width >= 48rem) {
+    .containar {
+      max-width: 48rem;
+    }
+  }
+
+  @media (width >= 64rem) {
+    .containar {
+      max-width: 64rem;
+    }
+  }
+
+  @media (width >= 80rem) {
+    .containar {
+      max-width: 80rem;
+    }
+  }
+
+  @media (width >= 96rem) {
+    .containar {
+      max-width: 96rem;
+    }
+  }
+
+  @media (width >= 110rem) {
+    .containar {
+      max-width: 110rem;
+    }
+  }
 
   .hover {
     @apply hover:text-amber-500 transition-colors;
